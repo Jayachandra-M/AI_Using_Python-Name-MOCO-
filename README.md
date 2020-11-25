@@ -6,7 +6,7 @@ She Can Make Your Work More Easier
 
 Requirements :
 
-      Python3
+      Python3 or above
       
 Required Modules :
 
