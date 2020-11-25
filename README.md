@@ -3,6 +3,12 @@ She Can Make Your Work More Easier
 
 
 
+Install :
+     
+     git clone 
+
+
+
 
 Requirements :
 
