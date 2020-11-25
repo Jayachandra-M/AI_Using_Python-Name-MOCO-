@@ -5,8 +5,8 @@ She Can Make Your Work More Easier
 
 Install :
      
-     git clone https://github.com/Jayachandra-M/AI_Using_Python-Name-MOCO-.git
-     cd AI_Using_Python-Name-MOCO
+     git clone https://github.com/Jayachandra-M/AI_Using_Python_MOCO.git
+     cd AI_Using_Python_MOCO
      Chmod +x MOCO.py
      pip3 install -r requirements.txt
      Python3 MOCO.py
