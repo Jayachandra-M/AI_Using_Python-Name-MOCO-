@@ -1,1 +1,11 @@
 
+  pyttsx3
+  datetime
+  speech_recognition 
+  wikipedia
+  smtplib
+  webbrowser 
+  os
+  geocoder
+  requests
+  json
