@@ -97,8 +97,8 @@ def sendEmail(to, content):
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.ehlo()
     server.starttls()
-    server.login("ehacking07@gmail.com", "thereisnoplacelike127.0.0.1")
-    server.sendmail('ehacking07@gmail.com', to, content)
+    server.login("Here goes your email", "your password")
+    server.sendmail('your email', to, content)
     server.close()
 def weather():
     api_url = "https://fcc-weather-api.glitch.me/api/current?lat=" + \
@@ -202,11 +202,6 @@ if __name__ == "__main__":
         elif "open facebook" in query:
             speak("Opening facebook")
             webbrowser.open_new_tab("https://facebook.com")
-
-        elif "open uimart" in query or 'open UI mode' in query or 'open my mart' in query or 'open uae mart' in query or 'open UI Mart' in query:
-            speak("opening Uimart")
-            webbrowser.open_new_tab("https://www.uimart.in/admin/order")
-
         elif 'play songs' in query:
             songs_dir = '' #songs directory
             songs = os.listdir(songs_dir)
